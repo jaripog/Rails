@@ -63,3 +63,298 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 1158ms (Views: 1104.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-05-13 16:27:34 +0530
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (3.6ms)
+  Rendered layouts/_navigation.html.erb (1.4ms)
+Completed 200 OK in 1995ms (Views: 1948.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 16:27:41 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 411ms (Views: 370.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 16:28:08 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.9ms)
+Completed 200 OK in 466ms (Views: 432.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 16:28:37 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 416ms (Views: 373.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 16:29:09 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 391ms (Views: 359.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 16:30:37 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 15444ms (Views: 15386.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 16:31:09 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 566ms (Views: 539.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 16:31:16 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_navigation.html.erb (0.8ms)
+Completed 200 OK in 582ms (Views: 531.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 17:13:08 +0530
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+Completed 200 OK in 4743ms (Views: 4721.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-13 17:14:27 +0530
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 242ms (Views: 221.6ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ bin/rails:4
+  [1m[35m (654.8ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:4
+  [1m[35m (674.9ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('6593492601597255690', 0)[0m
+  ↳ bin/rails:4
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Migrating to DeviseCreateUsers (20190513120917)
+  [1m[35m (542.1ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20190513120917_devise_create_users.rb:5
+  [1m[35m (597.9ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) [0m
+  ↳ db/migrate/20190513120917_devise_create_users.rb:39
+  [1m[35m (405.0ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  ↳ db/migrate/20190513120917_devise_create_users.rb:40
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Create (20.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190513120917')[0m
+  ↳ bin/rails:4
+  [1m[35m (98.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Create (36.0ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2019-05-13 12:10:05', '2019-05-13 12:10:05')[0m
+  ↳ bin/rails:4
+  [1m[35m (211.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('6593492601597255690')[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ bin/rails:4
+Started GET "/users/new" for ::1 at 2019-05-13 17:41:34 +0530
+  
+NoMethodError (undefined method `devise' for User (call 'User.connection' to establish a connection):Class):
+  
+app/models/user.rb:4:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+config/routes.rb:2:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/users/sign_in" for ::1 at 2019-05-13 17:41:36 +0530
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/users/sign_in"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/sign_in" for ::1 at 2019-05-13 17:42:06 +0530
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (0.8ms)
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application (146.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 1055ms (Views: 1027.6ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-05-13 17:42:13 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/shared/_error_messages.html.erb (0.5ms)
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (0.8ms)
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/registrations/new.html.erb within layouts/application (98.2ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 521ms (Views: 520.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-05-13 17:42:16 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (0.8ms)
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/sessions/new.html.erb within layouts/application (49.6ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 362ms (Views: 360.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for ::1 at 2019-05-13 17:42:17 +0530
+Processing by Devise::PasswordsController#new as HTML
+  Rendering C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/passwords/new.html.erb within layouts/application
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/shared/_links.html.erb (0.7ms)
+  Rendered C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/devise-4.6.2/app/views/devise/passwords/new.html.erb within layouts/application (95.6ms)
+  Rendered layouts/_navigation.html.erb (0.3ms)
+Completed 200 OK in 429ms (Views: 382.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-05-13 17:44:32 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (269.9ms)
+Completed 500 Internal Server Error in 402ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `bootstrap_form_for' for #<#<Class:0x0000000006a9d110>:0x000000000b3289c0>):
+    1: <%= bootstrap_form_for(resource, 
+    2:                        as: resource_name, 
+    3:                        url: session_path(resource_name)) do |f| %>
+    4: 
+  
+app/views/devise/sessions/new.html.erb:1:in `_app_views_devise_sessions_new_html_erb__673604089_93916160'
+Started GET "/users/sign_in" for ::1 at 2019-05-13 17:45:16 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (221.5ms)
+Completed 500 Internal Server Error in 358ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x0000000006a9d110>:0x000000000c58a7a8>
+Did you mean?  fork):
+    1: <%= form-control(resource, 
+    2:                        as: resource_name, 
+    3:                        url: session_path(resource_name)) do |f| %>
+    4: 
+  
+app/views/devise/sessions/new.html.erb:1:in `_app_views_devise_sessions_new_html_erb__673604089_103565820'
+Started GET "/users/sign_in" for ::1 at 2019-05-13 17:46:23 +0530
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (261.0ms)
+Completed 500 Internal Server Error in 426ms (ActiveRecord: 8.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x0000000007737768>:0x0000000006eafaf0>
+Did you mean?  fork):
+    1: <%= form-control(resource, 
+    2:                        as: resource_name, 
+    3:                        url: session_path(resource_name)) do |f| %>
+    4: 
+  
+app/views/devise/sessions/new.html.erb:1:in `_app_views_devise_sessions_new_html_erb__843275195_58019140'
+Started GET "/users/sign_in" for ::1 at 2019-05-13 17:47:12 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (163.7ms)
+  Rendered layouts/_navigation.html.erb (0.6ms)
+Completed 200 OK in 6175ms (Views: 6174.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-05-13 17:47:57 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 299ms (Views: 298.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2019-05-13 17:48:01 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mCn9Co+U2T1HMYedOiOdgcFe7YrWyQ0MvvB1WcakpuDozoA5+U48zijClvHuWfOPYj3uPfAyz/Vz90xkcnAgUg==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mCn9Co+U2T1HMYedOiOdgcFe7YrWyQ0MvvB1WcakpuDozoA5+U48zijClvHuWfOPYj3uPfAyz/Vz90xkcnAgUg==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/sessions/new.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 281ms (Views: 280.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-05-13 17:48:15 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (0.4ms)
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (50.2ms)
+  Rendered layouts/_navigation.html.erb (0.4ms)
+Completed 200 OK in 322ms (Views: 321.3ms | ActiveRecord: 0.0ms)
+
+
