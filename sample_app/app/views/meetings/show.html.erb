@@ -1,0 +1,28 @@
+<% provide(:title, @meeting.title) %>
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user_info">
+    
+<table class="table">
+<thead>
+    <tr>
+      <th scope="SNo">#</th>
+      <th scope="Title">Title</th>
+      <th scope="Description">Description</th>
+      <th scope="StartTime">StartTime</th>
+      <th scope="EndTime">EndTime</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+       <td><%= @meeting.title %></td>
+       <td><%= @meeting.description %></td>
+       <td><%= @meeting.startTime %></td>
+       <td><%= @meeting.endTime %></td>
+       <td><%= @meeting.isActive %></td>
+    </tr>
+  </tbody>
+</table>
+ </section>
+  </aside>
+</div>

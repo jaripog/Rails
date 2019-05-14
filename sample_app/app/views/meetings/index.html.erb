@@ -1,0 +1,30 @@
+<% provide(:title, 'Dashboard') %>
+
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#calender">Calender</a></li>
+    <li><a data-toggle="tab" href="#all-meetings">all-meetings</a></li>
+</ul>
+
+
+<div class="tab-content">
+    <div id="calender" class="tab-pane fade in active">
+        <h3>Calendar</h3>
+             <%= render 'calender' %>
+    </div>
+    <div id="all-meetings" class="tab-pane fade">
+        <h3>Meetings</h3>
+            <%= will_paginate %>
+                <ul class="meetings">
+                    <% @meetings.each do |meeting| %>
+                        <li>
+                        <%= link_to meeting.title , meeting %> |
+                        <% if current_user.admin? %>
+                            <%= link_to "Edit",  edit_meeting_path(meeting)%> |
+                            <%= link_to "Delete", meeting, method: :delete,data: { confirm: "You sure?" } %>
+                        <%end%>
+                        </li>
+                    <% end %>
+                </ul>
+            <%= will_paginate %>
+    </div>
+</div>

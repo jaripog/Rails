@@ -1,0 +1,37 @@
+<% provide(:title, "New Meeting") %>
+
+<div class="max-w-lg m-auto px-4">
+  <h1 class="text-3xl mt-10">Schedule a new session</h1>
+  <p class="text-3xl mt-10">Schedule a new session by choosing the best time that works for you below.</p>
+  
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+        <%= form_for(:meeting,url: newMeeting_path ) do |f| %>
+            <%= render 'shared/error_messages_meetings' %>
+            <%= f.label :title%>
+            <%= f.text_field :title,class: 'form-control'%>
+
+            <%= f.label :description%>
+            <%= f.text_area :description,class: 'form-control'%>
+
+            <%= f.label :startTime%>
+            <%= f.datetime_field :startTime %>
+
+            <%= f.label :endTime%>
+            <%= f.datetime_field :endTime %>
+
+            <%= f.label :isActive%>
+            <%= f.check_box :isActive, disabled: true, style: 'margin-top:-2%;float:left;' %>
+                    
+            <%= f.submit "Create Meeting", class: 'btn btn-primary'%>
+        <%end%>
+        
+    </div>
+    </div>
+</div>
+<script type="text/javascript">
+            $(document).ready(function(){
+    $('.datepicker').datetimepicker({
+    });
+  });
+        </script>
