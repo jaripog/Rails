@@ -1,1 +1,16 @@
-<h1>calender</h1>
+<%= month_calendar do |date| %>
+  <%= date.day %>
+
+  <% @meetings.each do |meeting| %>
+    <% if (meeting.startTime.to_date == date && meeting.isActive == true) %>      
+      <br/>
+        <%= link_to meeting.title, meeting, class: "link" %>
+        <% if (meeting.endTime.to_date >= DateTime.now.to_date) %> 
+            (Y)
+        <%else%>
+            (N)
+        <%end%>
+        
+    <%end %>
+   <%end%>
+<% end %>

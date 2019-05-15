@@ -1,11 +1,13 @@
 class MeetingsController < ApplicationController
+      def new
+      @meeting = Meeting.new 
   
-    def new
-      @meeting = Meeting.new    
     end
   
     def index
-        @meetings = Meeting.paginate(page: params[:page])
+        @meetings = Meeting.all
+        p @meetings
+        p '-----------------------------------------------------------'
     end
   
     def show
@@ -28,10 +30,10 @@ class MeetingsController < ApplicationController
     end
   
     def update 
-      @meeting = User.find(params[:id])
+      @meeting = Meeting.find(params[:id])
       if @meeting.update_attributes(meeting_params)
         flash[:success] = "Meeting updated"
-        redirect_to @meeting
+        redirect_to meetings_path
       else  
         render 'edit'
       end
