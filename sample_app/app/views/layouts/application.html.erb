@@ -8,12 +8,12 @@
   <body>
     <% if logged_in?%>
       <% @allmeetings = allmeetings%>
-      <% @allmeetings.each do |meeting| %> 
-        <% if ((meeting.startTime - DateTime.now)/1.minute) >=15 && meeting.isActive == true %>
+        <% @allmeetings.each do |meeting| %> 
+        <% if ((meeting.startTime - Time.now)/1.minute <=15 && meeting.isActive == true )%>
               <script> alert('You have a meeting uphead title:<%= meeting.title%>') </script>
         <%end%>
       <%end%>
-      <%end%>
+    <%end%>
     <% flash.each do |message_type, message| %>
       <div class="alert alert-<%= message_type %>"><%= message %></div>
     <% end %>

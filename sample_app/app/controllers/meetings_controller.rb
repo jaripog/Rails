@@ -6,8 +6,6 @@ class MeetingsController < ApplicationController
   
     def index
         @meetings = Meeting.all
-        p @meetings
-        p '-----------------------------------------------------------'
     end
   
     def show
